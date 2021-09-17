@@ -1,0 +1,13 @@
+.operator{
+    
+        height: 60px;
+        width: 60px;
+        border: 2px solid;
+        border-radius: 3px;
+        background-color: 0,0,0,0.5px;
+        margin: 3px;
+        display: flex;
+        position: relative;
+        left: 320px;
+        bottom: 340px;
+}

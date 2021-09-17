@@ -2,8 +2,11 @@ import React from 'react';
 import './BeautifullScreen.js'
 const BeautifullScreen = ({result}) => {
     return (
-        <div>
-            {result}
+        <div className="affiche">
+            <b>
+                {result}
+            </b>
+            
         </div>
     );
 };

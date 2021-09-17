@@ -1,0 +1,12 @@
+.reset{
+    height: 60px;
+    width: 60px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: rgb(189, 186, 174);
+    opacity: 0.5px;
+    display: flex;
+    position: relative;
+    left: 50px;
+    bottom: 600px;
+}

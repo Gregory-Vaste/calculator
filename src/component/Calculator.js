@@ -7,7 +7,8 @@ import OperatorBtn from './OperatorBtn';
 import './Numbers.css';
 import Numbers from './Numbers';
 import DeleteOperations from './DeleteOperations';
-import Itsover9000 from './Itsover9000';
+import './Calculator.css';
+
 
 
 
@@ -35,20 +36,14 @@ const Calculator = () => {
     const annul = () => {
         setValue("")
     }
-    const nine = () => {
-        if(value > 9000){
-            
-        }
-    }
 
     return (
-        <div>
+        <div className="container">
            <BeautifullScreen result={value}/>
            <Numbers greg={calc}/>
            <MagnificientEqual answer={equal} />
            <OperatorBtn tarte={calc}/>
            <DeleteOperations cancel={annul}/>
-           <Itsover9000 over={nine}/>
         </div>
     );
 };

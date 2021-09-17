@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './OperatorBtn.css'
 const OperatorBtn = ({tarte}) => {
     return (
         <div>

@@ -1,7 +1,13 @@
 .equal{
-    width: 30px;
+    width: 100px;
     height: 60px;
     border: 2px solid;
     border-radius: 3px;
     background-color: 0,0,0,0.5;
+    margin-right: 30px;
+    display: flex;
+        position: relative;
+        left: 210px;
+        bottom: 78px;
+        
 }
