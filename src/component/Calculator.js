@@ -15,13 +15,15 @@ import './Calculator.css';
 
 const Calculator = () => {
 
-
+    // state value as first value calculator
      const [value, setValue] = useState(""); 
     
+    //  calc for result question
     const calc = (e) => {
          setValue(value + e.target.id);
         //console.log(value);
     }
+    // equal for value and error for value
     const equal = () => {
         try{
             setValue(eval(value))
@@ -32,11 +34,11 @@ const Calculator = () => {
             }
         }
     }
-    
+    //  delete
     const annul = () => {
         setValue("")
     }
-
+    //all component && nommage des props
     return (
         <div className="container">
            <BeautifullScreen result={value}/>

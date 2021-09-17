@@ -2,7 +2,7 @@ import React from 'react';
 import './Numbers.css';
 const Numbers = ({nbrCalc}) => {
 
-
+  // numbers
     return (
         <div className="center"> 
           <div className="block1">
