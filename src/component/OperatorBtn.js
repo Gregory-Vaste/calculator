@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import './OperatorBtn.css'
-const OperatorBtn = ({tarte}) => {
+const OperatorBtn = ({operatorCalc}) => {
     return (
-        <div>
-            <button id="+" className="operator" onClick={tarte}>+</button>  
-            <button id="-" className="operator" onClick={tarte}>-</button>  
-            <button id="/" className="operator" onClick={tarte}>/</button>  
-            <button id="*" className="operator" onClick={tarte}>*</button>  
+        <div className="center">
+            <button id="+" className="operator" onClick={operatorCalc}>+</button>  
+            <button id="-" className="operator" onClick={operatorCalc}>-</button>  
+            <button id="/" className="operator" onClick={operatorCalc}>/</button>  
+            <button id="*" className="operator" onClick={operatorCalc}>*</button>  
         </div>
     );
 };

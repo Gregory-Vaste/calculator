@@ -40,9 +40,9 @@ const Calculator = () => {
     return (
         <div className="container">
            <BeautifullScreen result={value}/>
-           <Numbers greg={calc}/>
+           <Numbers nbrCalc={calc}/>
            <MagnificientEqual answer={equal} />
-           <OperatorBtn tarte={calc}/>
+           <OperatorBtn operatorCalc={calc}/>
            <DeleteOperations cancel={annul}/>
         </div>
     );

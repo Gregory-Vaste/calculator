@@ -1,5 +1,5 @@
 .equal{
-    width: 100px;
+    width: 60px;
     height: 60px;
     border: 2px solid;
     border-radius: 3px;
@@ -7,7 +7,7 @@
     margin-right: 30px;
     display: flex;
         position: relative;
-        left: 210px;
+        left: 254px;
         bottom: 78px;
         
 }

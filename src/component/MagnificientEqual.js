@@ -2,7 +2,7 @@ import React from 'react';
 import './MagnificientEqual.css';
 const MagnificientEqual = ({answer}) => {
     return (
-        <div>
+        <div className="center">
             <button onClick={answer} className="equal">=</button>
         </div>
     );

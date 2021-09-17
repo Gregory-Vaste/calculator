@@ -19,3 +19,6 @@ button:hover{
 button:active{
   background-color:rgb(78, 77, 77);
 }
+.center{
+  margin-left:-50px;
+}
